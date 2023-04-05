@@ -1,12 +1,7 @@
 body{
         background-color:#FFF9DA ;
     }
-h2, h3{
-    font-family: montecatini-pro-normale, serif;
-    font-weight: 700;
-    font-style: normal;
-}
-header{
+h1, h2{
     font-family: montecatini-pro-normale, serif;
     font-weight: 700;
     font-style: normal;
@@ -15,4 +10,27 @@ p{
     font-family: all-round-gothic, sans-serif;
     font-weight: 400;
     font-style: normal;
+}
+header>img{
+    padding: 0rem;
+    margin: 0;
+}
+header>nav{
+    display: flex;
+    justify-content: space-around;
+    padding: 0rem 0rem 5rem 0rem;
+}
+a{
+    color: #231F20;
+    font-family: montecatini-pro-normale, serif;
+    font-weight: 700;
+    font-style: normal;
+}
+a:hover{
+    color: #7F9968;
+}
+h2{
+    background-color: #7F9968;
+    padding: 1rem;
+    width: fit-content;
 }
