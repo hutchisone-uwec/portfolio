@@ -5,6 +5,8 @@ h1, h2{
     font-family: montecatini-pro-normale, serif;
     font-weight: 700;
     font-style: normal; 
+}
+h1{
     text-align: center;
 }
 p{
@@ -34,6 +36,7 @@ h2{
     background-color: #7F9968;
     padding: 1rem;
     width: fit-content;
+    text-align: center;
 }
 footer{
     background-color: #7F9968;
@@ -60,4 +63,14 @@ footer>a:hover{
     background-color: #7F9968;
     text-align: left;
     padding: 1rem;
+    
 }
+.sza{
+    background-color: #7F9968;
+    padding: 2rem;
+}
+.wonderland{
+    background-color: #7F9968;
+    padding: 2rem;
+}
+
