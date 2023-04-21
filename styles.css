@@ -15,8 +15,12 @@ p{
     font-style: normal;
     text-align: center;
 }
+header{
+    text-align: center;
+    margin: 0;   
+}
 header>img{
-    margin: 0;
+    max-width: 25rem;
 }
 header>nav{
     display: flex;
@@ -59,11 +63,10 @@ footer>a:hover{
     justify-content: space-around;
     display: inline-block;
 }
-#home{
+#intro{
     background-color: #7F9968;
     text-align: left;
     padding: 1rem;
-    
 }
 .sza{
     background-color: #7F9968;
@@ -72,5 +75,9 @@ footer>a:hover{
 .wonderland{
     background-color: #7F9968;
     padding: 2rem;
+}
+.home{
+    display: flex;
+    justify-content: space-evenly;
 }
 
